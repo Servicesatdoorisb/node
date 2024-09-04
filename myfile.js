@@ -12,7 +12,8 @@ const server = http.createServer((req,res)=>{
         } else {
             res.write(data);
             
-        }
+        }ddd
+        
         res.end();
 
     })
